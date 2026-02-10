@@ -4,7 +4,7 @@ using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class CinemachineCamController : MonoBehaviour
+public class FPSCamController : MonoBehaviour
 {
     [SerializeField] private MouseSensData _sensData;
     [SerializeField, Tooltip("Mouse Sensitivity")] private float _mouseSens = 0.05f;
