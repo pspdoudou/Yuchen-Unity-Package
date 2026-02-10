@@ -1,3 +1,4 @@
+using DebugMenu;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
