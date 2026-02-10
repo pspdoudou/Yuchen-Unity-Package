@@ -1,12 +1,16 @@
 {
 	"name": "com.pspdoudou.yuchenpackage",
-	"displayName":"YuchenPackage",
+	"displayName": "YuchenPackage",
 	"version": "0.1.0",
-	"unity": "6000.3",
-	"unityRelease": "6f1",
-	"description": "Replace this with your own description of the package. \n\nFor best results, use this text to summarize: \n\u25AA What the package does \n\u25AA How it can benefit the user \n\nNote: Special formatting characters are supported, including line breaks ('\\n') and bullets ('\\u25AA').",
+	"unity": "2021.3",
+	"description": "Yuchen Zhao Player Package",
 	"dependencies": {
-		"com.unity.test-framework": "1.6.0"
+		"com.unity.test-framework": "1.6.0",
+		"com.unity.cinemachine": "3.1.0",
+		"com.unity.inputsystem": "1.4.4",
+		"com.qhenshaw.charactermovement": "https://github.com/qhenshaw/CharacterMovement.git",
+		"com.qhenshaw.gameevents": "https://github.com/qhenshaw/GameEvents.git"
+
 	},
 	"author": {
 		"name": "yuchen zhao",
