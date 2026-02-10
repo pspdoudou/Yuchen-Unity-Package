@@ -18,5 +18,16 @@
 	},
 	"changelogUrl": "https://example.com/changelog.html",
 	"documentationUrl": "https://example.com/",
-	"licensesUrl": "https://example.com/licensing.html"
+	"licensesUrl": "https://example.com/licensing.html",
+
+	"samples": [
+		{
+			"displayName": "Movement",
+			"description": "Player Base Movement with dash/crouch/slide/double jump",
+			"path": "Samples~"
+		}
+	]
+	
 }
+
+
