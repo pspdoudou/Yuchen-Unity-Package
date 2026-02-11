@@ -258,10 +258,6 @@ MonoBehaviour:
     m_Bits: 0
   _playerAnimator: {fileID: 0}
   MaskOnSpeedMultiplier: 0.5
-  _isMaskOnBoolEvent: {fileID: 11400000, guid: e8b049d1e797dd04ba952ec1af567668, type: 2}
-  OnSlowMoStats:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &3592623551277679901
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +306,7 @@ GameObject:
   - component: {fileID: 1427661225975147310}
   - component: {fileID: 6492886616149291873}
   m_Layer: 6
-  m_Name: FirstPerson Camera (DO NOT MOVE)
+  m_Name: 'FirstPerson Camera '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

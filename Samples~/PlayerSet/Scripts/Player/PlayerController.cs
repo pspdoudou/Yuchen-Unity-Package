@@ -19,18 +19,12 @@ public class PlayerController : Controller
     [SerializeField] private Animator _playerAnimator;
     [SerializeField] private float MaskOnSpeedMultiplier = 0.5f;
     //[SerializeField] private Targetable _targetable;
-    [SerializeField] private BoolEventAsset _isMaskOnBoolEvent;
 
-    private bool _isMaskOn;
-
-    public UnityEvent<bool> OnSlowMoStats;
-    private float _speedMultiplier => _isMaskOn ? MaskOnSpeedMultiplier : 1f;
 
     protected override void Awake()
     {
         base.Awake();
         PlayerInput = GetComponent<PlayerInput>();
-        _isMaskOn = false;
     }
 
     private void Start()
@@ -54,22 +48,7 @@ public class PlayerController : Controller
        // Debug.Log("jump");
 
     }
-
-    public void OnToggleMask()
-    {
-        switch (_isMaskOn)
-        {
-            case true: _playerAnimator.SetTrigger("MaskUp"); break;
-            case false: _playerAnimator.SetTrigger("MaskDown"); break;
-
-        }
-        _isMaskOn = !_isMaskOn;
-        //if (_targetable != null) _targetable.isTargetable = !_isMaskOn;
-        if(_isMaskOnBoolEvent != null) _isMaskOnBoolEvent.Invoke(_isMaskOn);
-        Movement.ApplySpeedMultiplier(_speedMultiplier);
-
-        
-    }
+    
 
 
     public void OnSlideAndCrouch(InputValue inputValue)
@@ -106,7 +85,6 @@ public class PlayerController : Controller
     {
         // read the Vector2 input from our device
         Vector2 input = inputValue.Get<Vector2>();
-
         // remap to world direction
         MoveInput = new Vector3(input.x, 0f, input.y);
 
