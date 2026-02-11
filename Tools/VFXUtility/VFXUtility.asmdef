@@ -1,0 +1,17 @@
+{
+    "name": "VFXUtility",
+    "rootNamespace": "VFXUtility",
+    "references": [
+        "GUID:8f86c4c183f37e140bc7828240a4077e",
+        "GUID:2da18043ef3336846ac616c73b1ae0e2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

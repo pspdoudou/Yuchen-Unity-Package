@@ -2,10 +2,11 @@
     "name": "YuchenPackage",
     "rootNamespace": "",
     "references": [
-        "GUID:c2c6f54de722adb4cb657ee56bffb4db",
-        "GUID:2da18043ef3336846ac616c73b1ae0e2",
         "GUID:75469ad4d38634e559750d17036d5f7c",
-        "GUID:4307f53044263cf4b835bd812fc161a4"
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:2da18043ef3336846ac616c73b1ae0e2",
+        "GUID:c2c6f54de722adb4cb657ee56bffb4db",
+        "GUID:8f86c4c183f37e140bc7828240a4077e"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
