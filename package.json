@@ -4,12 +4,13 @@
   "version": "1.0.0",
   "unity": "2021.3",
   "description": "Yuchen Zhao Player Package",
-  "dependencies": {
-    "com.unity.test-framework": "1.6.0",
-    "com.unity.cinemachine": "3.1.0",
-    "com.unity.inputsystem": "1.4.4",
-    "com.qhenshaw.charactermovement": "3.3.2"
-  },
+    "dependencies": {
+        "com.unity.test-framework": "1.6.0",
+        "com.unity.cinemachine": "3.1.0",
+        "com.unity.inputsystem": "1.4.4",
+        "com.qhenshaw.charactermovement": "3.3.2",
+        "com.qhenshaw.unitytools": "4.4.3"
+    },
   "author": {
     "name": "yuchen zhao",
     "url": "https://pspdoudou.wixsite.com/yuchen"
