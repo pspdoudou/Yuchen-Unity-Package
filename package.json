@@ -1,7 +1,7 @@
 {
   "name": "com.pspdoudou.yuchenpackage",
   "displayName": "YuchenPackage",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "unity": "2021.3",
   "description": "Yuchen Zhao Player Package",
   "dependencies": {
@@ -10,21 +10,20 @@
     "com.unity.inputsystem": "1.4.4",
     "com.qhenshaw.charactermovement": "3.3.2"
   },
-    "author": {
-        "name": "yuchen zhao",
-        "url": "https://pspdoudou.wixsite.com/yuchen"
-    },
-
+  "author": {
+    "name": "yuchen zhao",
+    "url": "https://pspdoudou.wixsite.com/yuchen"
+  },
   "samples": [
     {
-        "displayName": "Movement",
-        "description": "Player Base Movement with dash/crouch/slide/double jump",
-        "path": "Samples~/Movement"
+      "displayName": "Movement",
+      "description": "Player Base Movement with dash/crouch/slide/double jump",
+      "path": "Samples~/Movement"
     },
     {
-        "displayName": "Scene Management",
-        "description": "Scene structure with checkpoints ready to use ",
-        "path": "Samples~/SceneStructure"
+      "displayName": "Scene Management",
+      "description": "Scene structure with checkpoints ready to use ",
+      "path": "Samples~/SceneStructure"
     }
   ]
 }

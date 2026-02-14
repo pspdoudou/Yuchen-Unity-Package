@@ -8,4 +8,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### This is the first release of *\<YuchenPackage\>*.
 
-*Short description of this release*
+*WIP*
+
+## [1.0.0] - 2026-02-14
+
+### This is the first release of *\<YuchenPackage\>*.
+*Added Scene Management Structure *
+
