@@ -10,19 +10,21 @@
     "com.unity.inputsystem": "1.4.4",
     "com.qhenshaw.charactermovement": "3.3.2"
   },
-  "author": {
-    "name": "yuchen zhao",
-    "url": "http://www.example.com",
-    "email": "example@email.com"
-  },
-  "changelogUrl": "https://example.com/changelog.html",
-  "documentationUrl": "https://example.com/",
-  "licensesUrl": "https://example.com/licensing.html",
+    "author": {
+        "name": "yuchen zhao",
+        "url": "https://pspdoudou.wixsite.com/yuchen"
+    },
+
   "samples": [
     {
-      "displayName": "Movement",
-      "description": "Player Base Movement with dash/crouch/slide/double jump",
-      "path": "Samples~"
+        "displayName": "Movement",
+        "description": "Player Base Movement with dash/crouch/slide/double jump",
+        "path": "Samples~/Movement"
+    },
+    {
+        "displayName": "Scene Management",
+        "description": "Scene structure with checkpoints ready to use ",
+        "path": "Samples~/SceneManagement"
     }
   ]
 }

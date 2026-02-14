@@ -41,17 +41,10 @@ public class SceneLoadTrigger : SceneLoadBase
 
     public void LoadAndUnloadScene()
     {
-        Application.backgroundLoadingPriority = ThreadPriority.Normal;
         OnStart.Invoke();
-        
-        for (int i = 0; i < _sceneToLoad.Count; i++)
-        {
-            bool nextLoaded = CheckIfSceneLoaded(_sceneToLoad[i]);
-            if (!nextLoaded) StartCoroutine(LoadScene(_sceneToLoad[i],LoadSceneMode.Additive));
-        }
-
         StartCoroutine(UnloadScenes(_sceneToUnloadHash));
-        Application.backgroundLoadingPriority = ThreadPriority.High;
+        StartCoroutine(LoadScenes(_sceneToLoadHash,LoadSceneMode.Additive));
+
     }
 
 
