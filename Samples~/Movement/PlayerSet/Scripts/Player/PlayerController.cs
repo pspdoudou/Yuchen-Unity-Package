@@ -14,7 +14,7 @@ public class PlayerController : Controller
     private Vector3 _aimPosition;
     private Vector3 _cameraRetativeInput;
     public bool InWeaponSwap;
-    private PlayerInput PlayerInput;
+    [SerializeField]private PlayerInput PlayerInput;
     [SerializeField] private LayerMask aimLayer;
     [SerializeField] private Animator _playerAnimator;
     [SerializeField] private float MaskOnSpeedMultiplier = 0.5f;
@@ -25,6 +25,7 @@ public class PlayerController : Controller
     {
         base.Awake();
         PlayerInput = GetComponent<PlayerInput>();
+        
     }
 
     private void Start()
@@ -47,6 +48,13 @@ public class PlayerController : Controller
         Movement.TryJump();
        // Debug.Log("jump");
 
+    }
+
+    public void OnSceneReload()
+    {
+        Debug.Log("Scene reload");
+        MenuSceneLoader.Instance.StartGameOnCheckPoint();
+    
     }
     
 

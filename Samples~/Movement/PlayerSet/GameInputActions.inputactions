@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "DefaultInputActions",
+    "name": "GameInputActions",
     "maps": [
         {
             "name": "CutScene",
@@ -150,6 +150,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "SceneReload",
+                    "type": "Button",
+                    "id": "9a6318aa-2970-40e6-9ff7-2d71e99dc267",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -449,6 +458,17 @@
                     "action": "WeaponSwapMouseWheel",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8de26a1b-5879-4ebe-bb93-1337ab97393d",
+                    "path": "<Keyboard>/f1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SceneReload",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -478,7 +498,7 @@
                     "name": "Cancel",
                     "type": "Button",
                     "id": "573c084f-a756-4314-b0c9-4e3111054ddd",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false

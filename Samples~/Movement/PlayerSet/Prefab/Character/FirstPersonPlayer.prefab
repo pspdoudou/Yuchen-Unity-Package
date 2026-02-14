@@ -253,6 +253,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   <CursorMode>k__BackingField: 1
   InWeaponSwap: 0
+  PlayerInput: {fileID: 0}
   aimLayer:
     serializedVersion: 2
     m_Bits: 0
@@ -267,6 +268,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5719985716983662801}
+  - component: {fileID: 6339968295388985602}
   m_Layer: 6
   m_Name: FirstPersonPlayer
   m_TagString: Player
@@ -291,6 +293,47 @@ Transform:
   - {fileID: 5633188202660384186}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6339968295388985602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3592623551277679901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501c82a2d51f3064ea3771b624a1547c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: YuchenPackage::GameActionRaiser
+  _raiseEvent: 2
+  UnityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: c62555c79412892448040fc100036da7, type: 2}
+        m_TargetAssemblyTypeName: MyGameInstance, Assembly-CSharp
+        m_MethodName: SetPlayer
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3592623551277679901}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: c62555c79412892448040fc100036da7, type: 2}
+        m_TargetAssemblyTypeName: MyGameInstance, Assembly-CSharp
+        m_MethodName: SetcinemachineCamera
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 6528923552216531554}
+          m_ObjectArgumentAssemblyTypeName: Unity.Cinemachine.CinemachineCamera,
+            Unity.Cinemachine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6728776202112190118
 GameObject:
   m_ObjectHideFlags: 0
