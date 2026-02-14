@@ -1,1 +1,2 @@
-Use this file to describe your package's features.
+Unity Package with Tools and scene setup.
+WIP
