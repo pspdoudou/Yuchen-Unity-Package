@@ -24,7 +24,7 @@
     {
         "displayName": "Scene Management",
         "description": "Scene structure with checkpoints ready to use ",
-        "path": "Samples~/SceneManagement"
+        "path": "Samples~/SceneStructure"
     }
   ]
 }
